@@ -1,10 +1,14 @@
 (function(){
-  'use strict';
+  'use strict'
 
   var vm = new Vue({
     el:'#app',
     data:{
-      name:'toguchi'
+      todos:[
+        'task1',
+        'task2',
+        'task3'
+      ]
     }
   })
 })();
